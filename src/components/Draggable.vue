@@ -14,7 +14,6 @@ const props = defineProps({
 
 const emit = defineEmits(['dragStarted']);
 
-
 function onmousedown($event) {
   emit('dragStarted', {
     id: props.id,
